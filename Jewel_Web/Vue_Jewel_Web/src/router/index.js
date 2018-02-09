@@ -4,12 +4,12 @@ import HelloWorld from '@/components/HelloWorld'
 
 Vue.use(Router)
 
+export const constantRouterMap = [
+  { path: '/mobile', component: HelloWorld, name: '首页' }
+]
+
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
-    }
-  ]
+  mode: 'history', // 后端支持可开
+  scrollBehavior: () => ({ y: 0 }),
+  routes: constantRouterMap
 })
