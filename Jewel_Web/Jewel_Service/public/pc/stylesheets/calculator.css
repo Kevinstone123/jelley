@@ -1,0 +1,90 @@
+@charset "UTF-8";
+html { font-family:"微软雅黑"; }
+body { margin: 0; font-size: 14px;  color: #272727; }
+a { background: transparent; text-decoration: none; color: #363636; }
+a:active,a:hover { outline: 0; }
+a:hover { color: #2f2f2f; }
+input{vertical-align: middle;}
+img {border: none; vertical-align: middle;}
+input,select,textarea { color: inherit; font: inherit; margin: 0; border: none; outline: none; vertical-align: middle;}
+input { margin: 0; padding: 0; border: none; background-color: transparent; outline: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+td,th { padding: 0; }
+ul,li{list-style: none; margin: 0; padding: 0;}
+h2,h3{ margin: 0; }
+a { outline: none; }
+i{font-style: normal; vertical-align: middle;}
+/*--*/
+.wrap{padding: 15px; box-sizing: border-box;}
+.title{color: #175aa5; font-size: 18px; background: url(../images/sq_icon1.png) no-repeat 0 3px; padding-left: 25px; }
+.sq-box{background-color: #f0f4f7; border: 1px solid #d4d7da; padding: 10px 15px; box-sizing: border-box; margin: 12px 0;}
+.sq-box h1{font-size: 16px; color: #0e335d; background: url(../images/sq_icon2.png) no-repeat 0 6px; padding-left: 15px;}
+#sqTab{font-weight: bold; width: 100%;}
+#sqTab td{line-height: 26px; width: 50%; background: url(../images/sq_listy.png) no-repeat 5px 10px; padding-left: 18px;}
+#ajjbxxTable{font-weight: bold; width: 100%;}
+#ajjbxxTable td{line-height: 26px; width: 50%; background: url(../images/sq_listy.png) no-repeat 5px 10px; padding-left: 18px;}
+/*--切换tab--*/
+.qhTab{width: 100%;}
+.qhTab ul{height: 35px;}
+.qhTab li{ display: block; float: left; margin-right: 2px; font-size: 16px; width: 120px; height: 35px;text-align: center; line-height: 35px; background-repeat: no-repeat; background-image: url(../images/qh-link.png);  cursor: pointer;}
+.qhTab li a{display: block;}
+.qhTab .thbg{background-image: url(../images/qk-hover.png);}
+.qhTab #page_td{background-color: #f0f4f7; padding: 15px 15px 30px 15px; border: 1px solid #d4d7da;}
+#updatePage{background: transparent;}
+/*--tab1--*/
+.line{width: 100%; height: 0; border-top: 1px solid #adadad; border-bottom: 1px solid #fff; position: relative; margin: 14px 0;}
+.line span{position: absolute; top: -15px; left: 30px; color: #226cbe; font-weight: bold; padding: 3px 14px; background-color: #f0f4f7;}
+.dhtx, .qk-txa{width: 98%; height: 70px; border: 1px solid #adadad; margin-bottom: 8px; padding: 4px;line-height:18px;}
+.qk-txa{height: 60px; margin-bottom: 0;}
+.gh{overflow: hidden; padding: 8px 0;}
+a.add{display: block; float: left; color: #fff; padding: 4px 20px; background-color: #2876cd; border: 1px solid #175ba7; }
+.ss-bt{background: url(../images/sq_icon3.png) no-repeat 0 3px; padding-left: 20px; font-size: 14px; font-weight: normal; margin: 10px 0;}
+.sg-tab{width: 100%;}
+.sg-tab td{line-height: 35px;}
+.sg-tab input[type = 'radio']{width: 15px; height: 15px; margin-right: 3px;}
+.sg-tab input[type = 'text']{ height: 22px; line-height: 22px; padding: 0 4px; border: 1px solid #b1b1b1; background-color: #fff; margin-right: 5px;}
+.sg-tab select{border: 1px solid #b1b1b1; background-color: #fff; height: 25px; line-height: 22px; padding: 0 0px; margin-right: 10px;}
+.sg-tab .txra{ padding: 4px; width: 800px; height: 60px; border: 1px solid #b1b1b1; background-color: #fff;line-height:18px; }
+.sg-tab i{ display: inline-block; padding-right: 10px; text-align: right;}
+.sg-tab .spj{margin-right: 20px;}
+.sg-tab .rad{margin-right: 20px;}
+.tab-box{padding: 10px 15px; background-color: #dbe2e7; margin-bottom: 5px;}
+.zr-tab{ width: 100%;}
+.zr-tab td{line-height: 30px;}
+.zr-tab i{margin-right: 10px;}
+.zr-tab select, .zr-tab input[type = 'text']{border: 1px solid #b1b1b1; background-color: #fff; height: 25px; line-height: 22px; padding: 0 0px; margin-right: 10px;}
+.zr-tab input[type = 'checkbox']{ width: 15px; height: 15px; background-color: #fff; border: 1px solid #b1b1b1; margin: 0 5px;}
+a.zr-btn, a.delete{display: inline-block; padding: 0 5px; background-color: #5392d9; color: #fff; border: 1px solid #4278b5; margin: 0 5px;}
+a.delete{margin-left: 30px;}
+.zr-tab .jz{margin-left: 30px;}
+.wid1{width: 100px;}
+.wid2{width: 200px;}
+.wid3{width: 60px;}
+.wid4{width: 300px;}
+/*-tab2--*/
+.list-tab, .list-tab table{width: 100%; border-collapse: collapse;}
+.list-tab th, .list-tab td{border: 1px solid #155298;}
+.list-tab th{font-size: 20px; color: #0c3969; line-height: 45px; background-color: #fff;}
+.list-tab td{font-size: 16px; color: #0c3969; font-weight: bold; background-color: #9ebcde; /*text-align: center*/; line-height: 35px; }
+.list-tab table{font-family: "宋体"; border-left-width:0; border-style: hidden;}
+.list-tab table th, .list-tab table td{color: #1f1f1f; border: 1px solid #155298; border-width:0px 0px 1px 1px; background-color: #fff;}
+.list-tab table th{font-size: 16px;  line-height: 34px;}
+.list-tab table td{font-size: 14px; line-height: 30px; font-weight: normal; padding: 0 20px;}
+.list-tab input[type = 'text']{ width: 100%; padding: 0 5px; height: 22px; line-height: 22px; border: 1px solid #828282; color: #1F1F1F; background-color: #fff;}
+.list-tab input[type = 'radio']{margin-left: 10px; margin-right: 5px;}
+.list-tab span{ margin: 0 80px;}
+.list-tab span input[type = 'text']{ width: 100px; font-size: 14px; color: #1F1F1F;}
+.btn{text-align: center; margin-top: 20px;}
+.btn a{display: inline-block; padding: 4px 15px; color: #fff; background-color: #0330a3; border: 1px solid #0b2974; margin: 0 15px;}
+.btn .btnA{background-color: #284180; border-color: #112454;}
+/*-tab3--*/
+.zj-tab, .db-tab{width: 100%; border-collapse: collapse;  text-align: center; background-color: #fff;}
+.zj-tab th, .zj-tab td, .db-tab th, .db-tab td{border: 1px solid #155298;}
+.zj-tab th{font-size: 20px; color: #0c3969; line-height: 45px;}
+.zj-tab td, .db-tab td{font-size: 14px; line-height: 30px; font-family: "宋体";}
+.zj-tab a, .db-tab a{color: #0330A3; text-decoration: underline;}
+.zj-tab input[type = 'text']{ width: 80%; padding: 0 5px; height: 22px; line-height: 22px; border: 1px solid #828282; color: #1F1F1F; }
+.db-tab th{font-size: 16px; line-height: 30px; background-color: #b1c9e5;}
+
+#tcPage{display: none; position: absolute; left: 0; top: 0;} 
+.text_center{text-align: center}
