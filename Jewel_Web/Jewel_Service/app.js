@@ -9,6 +9,20 @@ const logger = require('koa-logger')
 const index = require('./routes/index')
 const users = require('./routes/users')
 
+//添加日志功能
+const log4js = require("log4js");
+const log4js_config = require("./config/log4js.json");
+
+log4js.configure(log4js_config);
+
+global.logger = function(label)
+{
+  return log4js.getLogger(label);
+}
+global.logger("自检").info("当前运行环境"+process.env.NODE_ENV);
+
+global.logger("自检").info("log_start start!");
+
 // error handler
 onerror(app)
 

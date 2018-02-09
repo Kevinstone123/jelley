@@ -1,0 +1,21 @@
+{
+    "appenders": { 
+      "console": {
+        "type":"console",
+        "category":"console"
+      },
+      "log_file":{
+        "category":"log_file",
+        "type": "file",
+        "filename": "./Jewel_Web/Jewel_Service/logs/file.log",
+        "maxLogSize": 104800,
+        "backups": 100
+      },"log_date":{
+        "category":"log_date",
+        "type": "dateFile",
+        "filename": "./Jewel_Web/Jewel_Service/logs/Jewel_Service",
+        "alwaysIncludePattern": true,
+        "pattern": "-yyyy-MM-dd.log"
+      }},
+    "categories": {"default": { "appenders": ["console","log_date"], "level": "ALL","replaceConsole": true}}
+}
